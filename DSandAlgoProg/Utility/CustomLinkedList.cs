@@ -24,6 +24,17 @@ namespace DSandAlgoProg.Utility
             }
             return false;
         }
+
+        internal void Enqueue(char v)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal string DequeuePalindromeChecker()
+        {
+            throw new NotImplementedException();
+        }
+
         public void InsertFront(T new_data)
         {
             Node<T> newNode = new Node<T>(new_data);
